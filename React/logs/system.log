@@ -1,0 +1,1 @@
+[2020-07-22T22:46:36.027] [INFO] default - server starting -> [port] ${serverConfig.port} [env] ${process.env.NODE_ENV}
