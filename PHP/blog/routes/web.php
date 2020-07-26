@@ -22,3 +22,10 @@ Route::get('/archives/', function(){
 });
 
 
+Route::get('/archives/{category}/', function($category){
+    return $category . 'の一覧';
+});
+
+
+
+
