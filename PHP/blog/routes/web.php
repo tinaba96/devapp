@@ -32,7 +32,7 @@ Route::post('/join/', function(){
 });
 
 Routes::get('/sum/{x}/{y}/', function($x, $y) {
-  return view('sum');
+  return view('sum', ['x'=>$x, 'y'=>$y]);
 });
 
 Route::get('/join/', function(){
