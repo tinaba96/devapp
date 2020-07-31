@@ -31,10 +31,7 @@ Route::post('/join/', function(){
     return '入会申し込み完了';
 });
 
-Route::get('/sum/{x}/{y}/', function($x, $y) {
-  $answer = $x + $y;
-  return view('sum', ['x'=>$x, 'y'=>$y, 'answer'=>$answer]);
-});
+Route::get('/sum/{x}/{y}/', 'MathController@sum');
 
 Route::get('/join/', function(){
   return redirect() -> to('/');
