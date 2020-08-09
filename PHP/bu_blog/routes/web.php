@@ -37,8 +37,10 @@ Route::get('/join/', function(){
   return redirect() -> to('/');
 });
 
+
+Route::get('/entries/', 'EntriesController@index');
+
+
 Route::get('/{id}/', function($id){
     return $id . 'のページ';
 });
-
-
