@@ -1,5 +1,5 @@
 <?php
-
+use Illuminate\Support\Facades\Auth;
 namespace App\Http\Controllers;
 
 use App\Folder;
@@ -11,6 +11,7 @@ class TaskController extends Controller
 {
     public function index(int $id)
     {
+        $folders = Auth::user()->folders()->get();
         $folders = Folder::all();
 
         $current_folder = Folder::find($id);
