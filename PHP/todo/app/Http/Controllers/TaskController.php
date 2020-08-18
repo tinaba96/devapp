@@ -74,6 +74,12 @@ class TaskController extends Controller
      */
     public function showEditForm(Folder $folder, Task $task)
     {
+      $this->checkRelation($folder, $task);
+
+      if ($folder->id !== $task->folder_id) {
+        abort(404);
+      }
+
         return view('tasks/edit', [
             'task' => $task,
         ]);
@@ -88,6 +94,11 @@ class TaskController extends Controller
      */
     public function edit(Folder $folder, Task $task, EditTask $request)
     {
+      $this->checkRelation($folder, $task);
+
+      if ($folder->id !== $task->folder_id) {
+        abort(404);
+        }
         $task->title = $request->title;
         $task->status = $request->status;
         $task->due_date = $request->due_date;
@@ -97,4 +108,10 @@ class TaskController extends Controller
             'id' => $task->folder_id,
         ]);
     }
+    private function checkRelation(Folder $folder, Task $task)
+  {
+    if ($folder->id !== $task->folder_id) {
+        abort(404);
+    }
+  }
 }
