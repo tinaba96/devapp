@@ -12,15 +12,15 @@ class TaskController extends Controller
     public function index(Folder $folder)
     {
         $folders = Auth::user()->folders()->get();
-        //$folders = Folder::all();
+        $folders = Folder::all();
 
-        //$current_folder = Folder::find($id);
+        $current_folder = Folder::find($id);
 
-        //if (is_null($current_folder)) {
-        //        abort(404);
-        //    }
+        if (is_null($current_folder)) {
+                abort(404);
+            }
 
-        //$tasks = $current_folder->tasks()->get();
+        $tasks = $current_folder->tasks()->get();
         $tasks = $folder->tasks()->get();
 
         return view('tasks/index', [
