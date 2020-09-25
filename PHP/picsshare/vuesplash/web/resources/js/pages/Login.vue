@@ -93,7 +93,8 @@ export default {
       await this.$store.dispatch('auth/login', this.loginForm)
       if (this.apiStatus) {
         // トップページに移動する
-        this.$router.push('/').catch(()=>{})
+        this.$router.push('/')
+        //this.$router.push('/').catch(()=>{})
       }
     },
 
@@ -103,7 +104,8 @@ export default {
 
       if (this.apiStatus) {
         // トップページに移動する
-        this.$router.push('/').catch(()=>{})
+        this.$router.push('/')
+        //this.$router.push('/').catch(()=>{})
       }
     },
     clearError () {
