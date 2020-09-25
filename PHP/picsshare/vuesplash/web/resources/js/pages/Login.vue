@@ -110,6 +110,9 @@ export default {
       this.$store.commit('auth/setLoginErrorMessages', null)
       this.$store.commit('auth/setRegisterErrorMessages', null)
     }
+  },
+  created () {
+    this.clearError()
   }
 }
 </script>
