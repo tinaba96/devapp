@@ -4,11 +4,54 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Auth; 
+
 
 class Photo extends Model
 {
+    /**
+     * リレーションシップ - commentsテーブル
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function comments()
+    {
+        return $this->hasMany('App\Comment')->orderBy('id', 'desc');
+    }
+  
+    /**
+   * リレーションシップ - usersテーブル
+   * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+   */
+    public function owner()
+    {
+        return $this->belongsTo('App\User', 'user_id', 'id', 'users');
+    }
+
+    /**
+   * アクセサ - url
+   * @return string
+   */
+    public function getUrlAttribute()
+    {
+        return Storage::cloud()->url($this->attributes['filename']);
+    } 
+
     /** プライマリキーの型 */
     protected $keyType = 'string';
+
+
+    /** JSONに含める属性 */
+    protected $visible = [
+        'id', 'owner', 'url', 'comments', 'likes_count', 'liked_by_user',
+    ];
+
+    /** JSONに含める属性 */
+    protected $appends = [
+        'url', 'likes_count', 'liked_by_user',
+    ];
+
+    protected $perPage = 15;
 
     /** IDの桁数 */
     const ID_LENGTH = 12;
@@ -50,6 +93,38 @@ class Photo extends Model
         }
 
         return $id;
+    }
+    /**
+     * リレーションシップ - usersテーブル
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     */
+    public function likes()
+    {
+        return $this->belongsToMany('App\User', 'likes')->withTimestamps();
+    }
+
+    /**
+     * アクセサ - likes_count
+     * @return int
+     */
+    public function getLikesCountAttribute()
+    {
+        return $this->likes->count();
+    }
+
+    /**
+     * アクセサ - liked_by_user
+     * @return boolean
+     */
+    public function getLikedByUserAttribute()
+    {
+        if (Auth::guest()) {
+            return false;
+        }
+
+        return $this->likes->contains(function ($user) {
+            return $user->id === Auth::user()->id;
+        });
     }
 }
 
