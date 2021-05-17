@@ -55,6 +55,8 @@ class PhotoSubmitApiTest extends TestCase
     public function should_データベースエラーの場合はファイルを保存しない()
     {
         // 乱暴だがこれでDBエラーを起こす
+        Schema::drop('comments');
+        Schema::drop('likes');
         Schema::drop('photos');
 
         Storage::fake('s3');
