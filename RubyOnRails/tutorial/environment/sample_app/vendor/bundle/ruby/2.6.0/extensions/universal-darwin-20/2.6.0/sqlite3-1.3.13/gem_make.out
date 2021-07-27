@@ -1,0 +1,41 @@
+current directory: /Users/takahiro/src/github.com/tinaba96/devapp/RubyOnRails/tutorial/environment/sample_app/vendor/bundle/ruby/2.6.0/gems/sqlite3-1.3.13/ext/sqlite3
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20210727-98208-1ymapvt.rb extconf.rb
+checking for sqlite3.h... yes
+checking for pthread_create() in -lpthread... yes
+checking for sqlite3_libversion_number() in -lsqlite3... yes
+checking for rb_proc_arity()... yes
+checking for rb_integer_pack()... yes
+checking for sqlite3_initialize()... yes
+checking for sqlite3_backup_init()... yes
+checking for sqlite3_column_database_name()... yes
+checking for sqlite3_enable_load_extension()... yes
+checking for sqlite3_load_extension()... yes
+checking for sqlite3_open_v2()... yes
+checking for sqlite3_prepare_v2()... yes
+checking for sqlite3_int64 in sqlite3.h... yes
+checking for sqlite3_uint64 in sqlite3.h... yes
+creating Makefile
+
+current directory: /Users/takahiro/src/github.com/tinaba96/devapp/RubyOnRails/tutorial/environment/sample_app/vendor/bundle/ruby/2.6.0/gems/sqlite3-1.3.13/ext/sqlite3
+make "DESTDIR=" clean
+
+current directory: /Users/takahiro/src/github.com/tinaba96/devapp/RubyOnRails/tutorial/environment/sample_app/vendor/bundle/ruby/2.6.0/gems/sqlite3-1.3.13/ext/sqlite3
+make "DESTDIR="
+compiling backup.c
+compiling database.c
+compiling exception.c
+compiling sqlite3.c
+compiling statement.c
+linking shared-object sqlite3/sqlite3_native.bundle
+ld: warning: directory not found for option '-L/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.2.Internal.sdk/usr/local/lib'
+ld: warning: ignoring file backup.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file database.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file exception.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file sqlite3.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file statement.o, building for macOS-arm64e but attempting to link with file built for unknown-x86_64
+ld: warning: ignoring file /usr/local/opt/sqlite/lib/libsqlite3.dylib, building for macOS-arm64e but attempting to link with file built for macOS-x86_64
+ld: warning: directory not found for option '-L/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.2.Internal.sdk/usr/local/lib'
+
+current directory: /Users/takahiro/src/github.com/tinaba96/devapp/RubyOnRails/tutorial/environment/sample_app/vendor/bundle/ruby/2.6.0/gems/sqlite3-1.3.13/ext/sqlite3
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 sqlite3_native.bundle ./.gem.20210727-98208-1eueobt/sqlite3
