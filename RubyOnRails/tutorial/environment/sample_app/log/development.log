@@ -64,3 +64,250 @@ Processing by StaticPagesController#help as HTML
 Completed 200 OK in 26ms (Views: 21.8ms)
 
 
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-08-21 13:35:18 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 513ms (Views: 270.2ms)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-08-21 13:47:58 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 85ms (Views: 80.2ms)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-08-21 14:49:37 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb
+  Rendered static_pages/help.html.erb (9.7ms)
+Completed 200 OK in 43ms (Views: 14.7ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2021-08-21 14:49:38 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (0.3ms)
+Completed 200 OK in 4ms (Views: 1.9ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2021-08-21 14:52:55 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (9.3ms)
+Completed 200 OK in 41ms (Views: 24.4ms)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-08-21 14:52:55 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb
+  Rendered static_pages/help.html.erb (2.7ms)
+Completed 200 OK in 8ms (Views: 4.4ms)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-08-21 14:53:00 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb
+  Rendered static_pages/help.html.erb (0.9ms)
+Completed 200 OK in 6ms (Views: 3.5ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2021-08-21 14:53:03 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb
+  Rendered static_pages/about.html.erb (0.3ms)
+Completed 200 OK in 7ms (Views: 2.6ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2021-08-21 15:24:32 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb
+  Rendered static_pages/about.html.erb (3.7ms)
+Completed 200 OK in 17ms (Views: 9.2ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2021-08-21 15:24:35 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb
+  Rendered static_pages/about.html.erb (1.7ms)
+Completed 200 OK in 7ms (Views: 4.2ms)
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2021-08-21 15:24:44 +0900
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb
+  Rendered static_pages/about.html.erb (1.5ms)
+Completed 200 OK in 4ms (Views: 3.4ms)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-08-21 15:24:44 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb
+  Rendered static_pages/help.html.erb (0.3ms)
+Completed 200 OK in 6ms (Views: 3.7ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2021-08-21 15:24:45 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (6.0ms)
+Completed 200 OK in 10ms (Views: 8.3ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2021-08-31 23:31:07 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (1.5ms)
+Completed 200 OK in 217ms (Views: 6.9ms)
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2021-09-01 20:36:10 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (39.0ms)
+Completed 200 OK in 3751ms (Views: 3529.4ms)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-09-01 20:36:28 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 142ms (Views: 129.9ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-09-01 20:36:31 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages/contact"):
+  
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.1.6/lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+vendor/bundle/ruby/2.6.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.6.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/ruby/2.6.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/ruby/2.6.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.1.6/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/ruby/2.6.0/gems/railties-5.1.6/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/ruby/2.6.0/gems/railties-5.1.6/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.1.6/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.1.6/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.1.6/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/ruby/2.6.0/gems/railties-5.1.6/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/ruby/2.6.0/gems/sprockets-rails-3.2.2/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.1.6/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.1.6/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.3/lib/rack/method_override.rb:24:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.3/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.1.6/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.1.6/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.1.6/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.3/lib/rack/sendfile.rb:110:in `call'
+vendor/bundle/ruby/2.6.0/gems/railties-5.1.6/lib/rails/engine.rb:522:in `call'
+vendor/bundle/ruby/2.6.0/gems/puma-3.9.1/lib/puma/configuration.rb:224:in `call'
+vendor/bundle/ruby/2.6.0/gems/puma-3.9.1/lib/puma/server.rb:602:in `handle_request'
+vendor/bundle/ruby/2.6.0/gems/puma-3.9.1/lib/puma/server.rb:435:in `process_client'
+vendor/bundle/ruby/2.6.0/gems/puma-3.9.1/lib/puma/server.rb:299:in `block in run'
+vendor/bundle/ruby/2.6.0/gems/puma-3.9.1/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-09-01 20:36:31 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages/contact"):
+  
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.1.6/lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+vendor/bundle/ruby/2.6.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.6.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/ruby/2.6.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/ruby/2.6.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.1.6/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/ruby/2.6.0/gems/railties-5.1.6/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/ruby/2.6.0/gems/railties-5.1.6/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.1.6/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.1.6/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.1.6/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/ruby/2.6.0/gems/railties-5.1.6/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/ruby/2.6.0/gems/sprockets-rails-3.2.2/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.1.6/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.1.6/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.3/lib/rack/method_override.rb:24:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.3/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.1.6/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.1.6/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.1.6/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.3/lib/rack/sendfile.rb:110:in `call'
+vendor/bundle/ruby/2.6.0/gems/railties-5.1.6/lib/rails/engine.rb:522:in `call'
+vendor/bundle/ruby/2.6.0/gems/puma-3.9.1/lib/puma/configuration.rb:224:in `call'
+vendor/bundle/ruby/2.6.0/gems/puma-3.9.1/lib/puma/server.rb:602:in `handle_request'
+vendor/bundle/ruby/2.6.0/gems/puma-3.9.1/lib/puma/server.rb:435:in `process_client'
+vendor/bundle/ruby/2.6.0/gems/puma-3.9.1/lib/puma/server.rb:299:in `block in run'
+vendor/bundle/ruby/2.6.0/gems/puma-3.9.1/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-09-01 20:37:31 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 64ms (Views: 53.5ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2021-09-01 20:46:28 +0900
+Processing by StaticPagesController#contact as HTML
+  Rendering static_pages/contact.html.erb within layouts/application
+  Rendered static_pages/contact.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 58ms (Views: 53.9ms)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2021-09-01 20:46:30 +0900
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 32ms (Views: 29.8ms)
+
+
+Started GET "/static_pages/" for 127.0.0.1 at 2021-09-01 20:46:30 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/static_pages"):
+  
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.1.6/lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+vendor/bundle/ruby/2.6.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:135:in `call_app'
+vendor/bundle/ruby/2.6.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:28:in `block in call'
+vendor/bundle/ruby/2.6.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `catch'
+vendor/bundle/ruby/2.6.0/gems/web-console-3.5.1/lib/web_console/middleware.rb:18:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.1.6/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+vendor/bundle/ruby/2.6.0/gems/railties-5.1.6/lib/rails/rack/logger.rb:36:in `call_app'
+vendor/bundle/ruby/2.6.0/gems/railties-5.1.6/lib/rails/rack/logger.rb:24:in `block in call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.1.6/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.1.6/lib/active_support/tagged_logging.rb:26:in `tagged'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.1.6/lib/active_support/tagged_logging.rb:69:in `tagged'
+vendor/bundle/ruby/2.6.0/gems/railties-5.1.6/lib/rails/rack/logger.rb:24:in `call'
+vendor/bundle/ruby/2.6.0/gems/sprockets-rails-3.2.2/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.1.6/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.1.6/lib/action_dispatch/middleware/request_id.rb:25:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.3/lib/rack/method_override.rb:24:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.3/lib/rack/runtime.rb:22:in `call'
+vendor/bundle/ruby/2.6.0/gems/activesupport-5.1.6/lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.1.6/lib/action_dispatch/middleware/executor.rb:12:in `call'
+vendor/bundle/ruby/2.6.0/gems/actionpack-5.1.6/lib/action_dispatch/middleware/static.rb:125:in `call'
+vendor/bundle/ruby/2.6.0/gems/rack-2.2.3/lib/rack/sendfile.rb:110:in `call'
+vendor/bundle/ruby/2.6.0/gems/railties-5.1.6/lib/rails/engine.rb:522:in `call'
+vendor/bundle/ruby/2.6.0/gems/puma-3.9.1/lib/puma/configuration.rb:224:in `call'
+vendor/bundle/ruby/2.6.0/gems/puma-3.9.1/lib/puma/server.rb:602:in `handle_request'
+vendor/bundle/ruby/2.6.0/gems/puma-3.9.1/lib/puma/server.rb:435:in `process_client'
+vendor/bundle/ruby/2.6.0/gems/puma-3.9.1/lib/puma/server.rb:299:in `block in run'
+vendor/bundle/ruby/2.6.0/gems/puma-3.9.1/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-09-01 20:52:02 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 60ms (Views: 48.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2021-09-01 23:31:25 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 78ms (Views: 73.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2021-09-01 23:31:56 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 40ms (Views: 35.8ms)
+
+
