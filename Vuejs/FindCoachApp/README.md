@@ -8,11 +8,11 @@ This matching platform will encourage you to find coaches and students easily.
 
 
 ## Summary and Functionalities
-/coaches -> CoachList
-/coaches/:id -> CaochDetails
-/register -> Coach Registration
-/contact -> ContactCoach
-/requests -> RequestReceived
+- /coaches -> CoachList  
+- /coaches/:id -> CaochDetails  
+- /register -> Coach Registration  
+- /contact -> ContactCoach  
+- /requests -> RequestReceived  
 
 > A Vue.js project
 
