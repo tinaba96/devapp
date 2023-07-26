@@ -1,17 +1,22 @@
-# find_coach_app
+# Find Coach App
 
-## Summary
-/coaches -> CoachList
-/coaches/:id -> CaochDetails
-/register -> Coach Registration
-/contact -> ContactCoach
-/requests -> RequestReceived
+* this is based on the Udemy course
+
+## Overview
+This is an app where you can find a any kind of coaches. Also Coaches can register themselves with their specialities.
+This matching platform will encourage you to find coaches and students easily.
 
 
+## Summary and Functionalities
+- /coaches -> CoachList  
+- /coaches/:id -> CaochDetails  
+- /register -> Coach Registration  
+- /contact -> ContactCoach  
+- /requests -> RequestReceived  
 
 > A Vue.js project
 
-## Build Setup
+## How to
 
 ``` bash
 # install dependencies
